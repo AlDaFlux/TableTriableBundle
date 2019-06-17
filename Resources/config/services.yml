@@ -1,0 +1,6 @@
+services:
+    aldaflux_table_triable.twig_extension:
+        class: Aldaflux\TableTriableBundle\Twig\TableTriableExtension
+        public: true
+        tags:
+            - { name: twig.extension }
